@@ -1,10 +1,14 @@
-
+  <h1>
+    <img src="img/gif.gif">
+  </h1>
 
 ## 👩🏽‍💻 Sobre o Projeto Lista De tarefas Alura
 
 Essa é uma aplicação de lista de tarefas que permite adicionar, editar e excluir tarefas. As alterações são salvas no armazenamento local do navegador, mesmo após o fechamento ou atualização da página. A lista é exibida em uma tabela HTML com botões de ação.
 
 "(() => {})();" é uma expressão em JavaScript que define uma função anônima e a chama imediatamente. Essa técnica  conhecida como IIFE (Immediately Invoked Function Expression) e é frequentemente usada para criar um escopo local para o código, ocultando variáveis e funções e evitando possíveis conflitos com outras bibliotecas ou scripts.
+
+- Este projeto é pessoal e foi desenvolvido com conhecimentos adquiridos no curso Alura Latam
 
 ## 👩🏽‍💻 Tecnologia Utilizada
 
