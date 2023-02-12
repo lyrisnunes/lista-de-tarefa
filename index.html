@@ -4,29 +4,38 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-
-  <title>Ceep</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Lista de tarefa</title>
 </head>
 <body>
-  <div class="container">
-    <h1>Lista de Tarefas</h1>
-    <form id="form">
-      <input type="text" id="task" placeholder="Adicione uma tarefa" required>
-      <button type="submit" id="add">Adicionar</button>
-    </form>
-    <table id="table">
-      <thead>
-        <tr>
-          <th>Tarefa</th>
-          <th>Ações</th>
-        </tr>
-      </thead>
-      <tbody id="tasks">
 
-      </tbody>
-    </table>
+  <header>
+    <p>Desenvolvido por Lyris Nunes</p>
+
+    <div class="icon">
+      <a href="https://www.linkedin.com/in/lyris-nunes-6a1976172/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/lyrisnunes" target="_blank"><i class="fa-brands fa-github"> </i></a>
+    </div>
+  </header>
+
+  <div class="container">
+      <h1>Lista de Tarefas</h1>
+      <form id="form">
+        <input type="text" id="task" placeholder="Adicione uma tarefa" required>
+        <button type="submit" id="add">Adicionar</button>
+      </form>
+      <table id="table">
+        <thead>
+          <tr>
+            <th>Tarefa</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody id="tasks">
+
+        </tbody>
+      </table>
   </div>
-    
 
     <script src="main.js"></script>
 </body>

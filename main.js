@@ -29,13 +29,13 @@
     const botaoDeletar = document.createElement('button');
 
     colunaTarefa.textContent = nomeTarefa;
-    botaoConcluir.textContent = 'Concluir';
-    botaoEditar.textContent = 'Editar';
-    botaoDeletar.textContent = 'Deletar';
+    botaoConcluir.textContent = 'Feito';
+    botaoEditar.textContent = '✏️';
+    botaoDeletar.textContent = '🗑️';
 
     botaoConcluir.addEventListener('click', () => {
       tarefa.classList.toggle('concluida');
-      if (botaoConcluir.textContent === 'Concluir') {
+      if (botaoConcluir.textContent === 'Feito') {
         botaoConcluir.textContent = '✔️';
         colunaTarefa.style.textDecoration = 'line-through';
       } else {
